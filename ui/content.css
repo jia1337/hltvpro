@@ -1,0 +1,125 @@
+.imgur-embed-iframe-pub{display:block}
+.pro-chat{
+  padding: 0 14px;
+  position:relative;
+
+  width: 60px;
+  box-sizing: border-box;
+  /* text-indent: -99999px; */
+  overflow: visible;
+}
+.pro-chat i{
+  background: url(chrome-extension://__MSG_@@extension_id__/ui/images/msgbubble.png) center center no-repeat;
+  position:absolute;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  right: -5px;
+  z-index: 9999999999999999;
+  display: block;
+  background-size: 100%;
+}
+.pro-sticky .topLoginBar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
+.pro-sticky #back{
+  margin-top: 30px;
+  padding-top: 1px;
+}
+.pro-cmnt-hidden{color: red;font-size: 13px}
+.pro-cmnt-show{color: blue;font-size:13px;text-decoration:underline;cursor:pointer;padding: 0 10px;}
+#proChatFrame{
+  width:100%;
+  height:600px;
+  border:0
+}
+#proProfileView{
+  position: absolute;
+  z-index: 8;
+  background: #dfdfdf;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size:11px;
+  min-width: 160px;
+  box-sizing: border-box;
+  display:none;
+  font-size : 12px
+}
+#proProfileView .pro-profile-link{
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #969696;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  overflow:auto
+}
+#proProfileView .pro-user-badge{
+    float: left;
+    height: 30px;
+    margin: 0 5px 0 0;
+}
+#proProfileView .pro-karma{
+  display: inline-block;
+  margin-left: 15px;
+}
+#proProfileView .pro-karma .pro-karma-up{
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 2px;
+  color: green;
+}
+#proProfileView .pro-karma .pro-karma-pos{color:green}
+#proProfileView .pro-karma .pro-karma-neg{color:red}
+#proProfileView .pro-karma .pro-karma-down{
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 2px;
+  color: red;
+}
+#proProfileView .pro-ignore-wrap{
+  text-align:center; margin-bottom:10px
+}
+#proProfileView .pro-ignore-user{
+  color: #b70000;
+  border-bottom: 1px solid;
+  cursor:pointer
+}
+#proProfileView ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display:none  }
+#proProfileView ul li {
+    line-height: 1.5;  }
+#proProfileView ul li b {
+  width: 100px;
+  display: inline-block;  }
+#proProfileView ul li span {
+  width: 70px;
+  display: inline-block;
+  text-align:right;
+}
+#proProfileView .pro-hr {
+  border: none;
+  border-bottom: 1px solid #969696;
+  border-bottom-style: solid;  }
+#proProfileView .pro-history-wrap{
+  overflow:auto;max-height:220px;
+}
+#proProfileView .pro-history td{
+  padding: 3px 5px;
+  border: 1px solid #c7c7c7;
+  line-height: 1;
+  }
+#proProfileView .pro-history td img{
+  width:18px;
+}
+#proProfileView table.pro-history-wrap{
+  display:block; max-height:150; overflow:auto
+}
+#proProfileView table.pro-history{
+  width:100%;border-collapse: collapse;
+} 

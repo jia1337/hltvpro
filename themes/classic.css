@@ -1,0 +1,144 @@
+/* FRONTPAGE*/
+
+
+.bgPadding {background-color: #ffffff;}
+.index .newsline+.newsline {border-top: 1px dotted #8a8a8a;}
+.teambox {display: -webkit-box;display: -ms-flexbox;display: flex;padding: 1px 5px;font-size: 11px;background: -webkit-linear-gradient(top, #dadada 0%,#f6f6f6 50%);border: 1px solid #888383;}
+.teambox .middleExtra {align-self: center;color: #4a4a4a;font-size: 12px;font-family: verdana;}
+.rightCol .streamer {padding: 2px 4px;height: 16px;}
+.rightCol .top-border-hide {margin-top: 1px;}
+.right2Col .col-box-con, .rightCol .col-box-con {background: -webkit-linear-gradient(top, #dadada 0%,#f6f6f6 12%);}
+.col-box-con { box-shadow: 0 1px 1px 0 rgba(50,50,50,.2);border: 1px solid #d8d8d8;}
+.index .newsline {padding: 1px 7px;}
+.index .newstext {font-size: 12px;color: #404040;}
+.navbar {background-color: #eee;}
+.activitylist .activity {height: 18px;}
+.rightCol .hotmatch-star-unselected { margin: 2px 5px 0 0;}
+.result-box {border:0;}
+.activitylist .col-box{border:none;}
+.standard-box {border: 1px solid rgba(222, 222, 222, 0.88);background-color: rgba(253, 253, 253, 0);border-radius: none;}
+.index >.standard-box {box-shadow: none; border:0px!important;}
+
+.index .newsheader {margin: 10px 0 6px;padding: 0;font-size: 13px;font-weight: 700;color: #2b6fa4;}
+.leftCol .col-box-con {background-color: hsl(0, 0%, 96%);}
+
+
+	
+/* COMMENT BOX*/
+
+.forum-topbar .bold {color:#000;}
+.forumthread .forum-topbar{background: -webkit-linear-gradient(top, #eae8e8 0%,#fcfcfc 82%);}	
+.forumthread .topic {font-weight: bold;font-size: 12px;font-family: verdana;color: #2b6fa4;}
+.forumthread .standard-box .forum-middle {font-family: arial;font-size: 12px;}
+.forum .forum-middle {font-family: arial;font-size: 12px;}
+.post .standard-box {border: 1px solid rgba(222, 222, 222, 0.88);background-color: #fdfdfd;border-radius: 4px 4px 0px 0px;}
+.old-news-con .standard-box {border: 1px solid rgba(222, 222, 222, 0);}
+.post .standard-box {box-shadow: 0 1px 1px 0 rgba(50,50,50,0);}
+.forum .post .standard-box {background-color: #f5f5f5;}
+.forumthread .standard-box {background-color: #f5f5f5;}
+.forum .report-button {color: #d0d0d0;}
+.reply-button {color: #a9a9a9;}
+.forum .newreply-textarea{ color:#000 ; font-size:12px; }
+.forum .authorAnchor {color: #50749c;font-weight: bold;font-family: verdana;font-size: 10px;}
+.forum-topbar a {    color: #50749c;}
+.forumthread .forum-topbar {margin-top: 0px;background-color: #e2e2e2;}
+.forum .forum-topbar {padding: 0 7px;background: -webkit-linear-gradient(top, #eae8e8 0%,#fcfcfc 82%);}
+.forum .forum-bottombar {border-top: 1px solid #ddd;background-color: #f5f5f5;}
+.forum-middle {color:#3a3838}
+.forum .forum-topbar {height: 21px;}
+.standard-box .forum-topbar a {color: #50749c;font-weight: 600;font-family: verdana;font-size: 10px;}
+.forum .newreply-textarea {box-shadow: inset 0 1px 10px #e2e2e2;}
+	
+	
+	
+	/* NIGHTMODE COUNTER*/
+	
+	
+.navbar .navsearchinput {background-color: #ffffff;}
+.navbar .navmatches {color:#353535;}
+.navbar .navnews, .navbar .navmatches, .navbar .navresults, .navbar .navevents, .navbar .navstats, .navbar .navgalleries, .navbar .navforums, .navbar .navranking, .navbar .navburger {    border-right: 1px solid #dddddd;}
+.navbar .navsearchinput {border-right: 1px solid #dddddd;}
+a, .a-default {text-decoration: none;color: #2d6da3;}
+.index .newstc {font-size: 11px;color: rgba(9,21,31,0.75);}
+.forum .threading {margin: 0 0 0 9px;padding: 9px 0 0 9px;border-left: 1px solid #dddddd;position: relative;}
+.forum .forum-topbar {border-bottom: 1px solid #dddddd;}
+.match-page .box-headline {font-size: 14px;padding-left: 5px;font-weight: 700;background-color: #f5f5f5;border-bottom: 1px solid #cecece;}
+.match-page .player-of-the-match .facts tr:nth-child(even) {border-top: 1px solid #dcdcdc;border-bottom: 1px solid #8c8c8c;background-color: #f5f5f5;}
+.match-page .player-of-the-match .facts tr:nth-child(even) {border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
+.match-page .past-matches .matches tr:nth-child(even) {border-top: 1px solid #3c4a58;border-bottom: 1px solid #3c4a58;background-color: #f5f5f5;}
+.forum .reply-button { border-left: 1px solid #dddddd;}
+.forum .reply-button:hover {background-color: #d4d4d4;}
+.match-page .streams .stream-box {box-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);background-color: #eeeeee;}
+.match-page .teamsBox .team .team1-gradient {background: linear-gradient(90deg,rgba(45,56,68,0) 50%,#ffffff 100%);}
+.match-page .teamsBox .team .team2-gradient {background: linear-gradient(-90deg,rgba(45,56,68,0) 50%,#ffffff 100%);}
+.match-page .standard-box {border: 1px solid rgba(222, 222, 222, 0.88);background-color: rgba(113, 113, 113, 0.05);}
+.match-page .pick-a-winner .pick-a-winner-team {box-shadow: rgba(50, 50, 50, 0.2) 0px 1px 1px 0px;width: 100%;background-color: rgba(113, 113, 113, 0.05);}
+.match-page .past-matches .matches tr:nth-child(even) {border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
+.match-page .past-matches .matches tr:nth-child(odd):hover {background: #dcdcdc;}
+.match-page .head-to-head-listing .alt {background-color: #f8f8f8;}
+.match-page .head-to-head-listing .new-match-begin {border-top: 1px solid #dcdcdc;}
+.forum .threading::before {border-bottom: 1px solid #dddddd;border-left: 1px solid #dddddd;}
+.footer {font-size: 12px;background-color: #eeeeee;border-top: 1px solid #a1a1a3;}
+.forum .newreply-textarea {background-color: #fbfbfb;}
+.forum .newreply-topbar {height: 30px;border-bottom: 1px solid #d4d4d4;background-color: #f5f5f5;}
+.button {background-color: #e2e2e2;}
+.match-sidebar .notify-button-con {display: block;color: #adadad;}
+.match-sidebar .small-event-box-con {display: block;background: #c3c3c3;}
+.navbar .navpopup {background-color: #eeeeee;border: 1px solid #a2a2a2;}
+.navbar .nav-popup-elm {border-top: 1px solid #e4e4e4;padding: 5px 10px 5px 10px;background-color: #ffffff;}
+.navbar .nav-popup-elm .timezoneSelector {background-color: #eaeaea;}
+.sidebar-con .sidebar-third-level {background: #f8f8f8;}
+.col-box {display: block;border-top: 1px solid #ffffff;}
+.navbar .navsearchinput {border: 1px solid #d6d6d6;}
+.navbar .navnews {border-left: 1px solid #dddddd;}
+.button:hover {color: #ececec!important;background-color: #a5a5a5;}
+.match-sidebar .notify-button-con:hover {background-color: #dedede!important;}
+.hltv-logo-container {background-image: url(https://www.hltv.org/img/static/TopLogo2x.png);}
+.activitylist .activity:hover {background-color: rgb(237, 237, 239);}
+a:hover, .a-default:hover {color: #2d6da3!important;}
+.navbar .nav-popup-elm:hover {background-color: #f3f3f3;}
+.index .newsline:hover {background: none;}
+.forumthread .forum-topbar {border-bottom: 1px solid #dddddd;}
+.forumthread .forum-bottombar {height: 25px!important;border-top: 1px solid #dddddd;}
+.forum .report-button {border-left: 1px solid #dddddd;}
+.forum .reply-button {border-left: 1px solid #dddddd;color: #bdbdbd;}
+.forum .forum-bottombar {font-size: 11px;height:23px;font-family: arial;}
+.teambox .teamrow {text-decoration: none;color: #2d6da3;}
+.rightCol .star1:before, .right2Col .star1:before, .leftCol .star1:before {content: "\f005\00a0";color: #000;}
+.rightCol .star2:before, .right2Col .star2:before, .leftCol .star2:before {content: "\f005\00a0\f005\00a0";color: #000;}
+.rightCol .hotmatch-box {box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.19);}
+.navbar .navborder:before {border-left: 1px solid #dddddd;}
+.rightCol .todays-matches {color: rgba(82, 82, 82, 0.5);}
+.navbar .navsearchborder {border-left: 1px solid #f1f1f1;}
+.newsrecent {display:none;}
+.index .newstc {font-size: 11px;color: rgba(82, 82, 82, 0.75);font-family: verdana;font-size: 10px;font-weight: bold;}
+.index .newstext {font-size: 11px;font-family: verdana;}
+.forumthread .standard-box {box-shadow:none;}
+.match-page .streams .stream-box:hover {background-color: #dcdcdc;}
+.match-page .player-of-the-match .facts tr:nth-child(odd):hover {background: rgba(206, 206, 206, 0.32);}
+.match-page .past-matches .matches tr:nth-child(even):hover {background: rgba(142, 142, 142, 0.15);}
+.report-button {border-left: 1px solid #dddddd;}
+.forumthread .time {font-size:11px;font-family: arial;}
+.player-of-the-week-box .rating-value-desc {color: #505050;}
+.newsitem .headline {font-size: 26px;color: #556da3;}
+.newsdsl .headertext {color: #292929;}
+ body {color:#353535;}
+.playerProfile .upcoming-matches-holder .standard-box:hover, .teamProfile .upcoming-matches-holder .standard-box:hover {background-color: rgb(237, 237, 239)!important;}
+.forumthread > .text-ellipsis {padding-bottom: 10px;}
+.teamProfile  .standard-box {background-color: rgba(191, 191, 191, 0.15);}
+.standard-box > .upcoming-match {background-color: rgba(191, 191, 191, 0.15);}
+.events-page .standard-box {background-color: rgba(177, 177, 177, 0.13);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

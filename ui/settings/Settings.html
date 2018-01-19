@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HLTV Pro Settings</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/AdminLTE.css" rel="stylesheet" type="text/css" />
+    <link href="settings.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="skin-blue">
+
+<div class="wrapper row-offcanvas row-offcanvas-left">
+  <section class="container">
+    <div class="row">
+      <h3 class="heading">HLTV Pro Settings</h3>
+    </div>
+    <div class="row " id="uiSection" >
+      <div class="col-md-12">
+        <!-- general form elements -->
+        <div class="box box-primary">
+          <div class="box-header hidden">
+            <h3 class="box-title">Update settings for multiple actions</h3>
+          </div><!-- /.box-header -->
+          <!-- form start -->
+          <form role="form" class="form-horizontal">
+            <div class="box-body" style="text-align:left">
+              <h3>
+                <b>Normal Settings</b>
+              </h3>
+              <div class="row filter">
+                <div class="col-sm-6">
+                  <div class="checkbox">
+                    <label for="enableChat">
+                      <input type="checkbox" id="enableChat">Enable Chat System
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="enableKarma">
+                      <input type="checkbox" id="enableKarma">Enable Karma System
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="collectStats">
+                      <input type="checkbox" id="collectStats">Enable Collecting History Stats
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="profileVisits">
+                      <input type="checkbox" id="profileVisits">Anonymize other User's profile visits
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="checkbox">
+                    <label for="hideHotTopics">
+                      <input type="checkbox" id="hideHotTopics">Hide Hot Topics
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="hideCmntsFlags">
+                      <input type="checkbox" id="hideCmntsFlags"/>Hide <b>flags</b> from users comments
+                    </label>
+                  </div>
+                  <div class="checkbox hidden">
+                    <label for="showCmntsTree">
+                      <input type="checkbox" id="showCmntsTree">Show Toggle Comment Tree
+                    </label>
+                  </div>
+                  
+                  <div class="checkbox hidden" style="margin-left:30px">
+                    <label for="collapseCmnts">
+                      <input type="checkbox" id="collapseCmnts" >Default Comments Tree (Expanded/Collapsed)
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="cmntBoxOnTop">
+                      <input type="checkbox" id="cmntBoxOnTop">Re-arrange comments Form on top  
+                    </label>
+                  </div>
+                  
+                </div>
+              </div>
+              <br/>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Select Theme</label>
+                <div class="col-sm-4">
+                  <select class="form-control" id="curTheme"> 
+                    <option value="dark">Dark (Dark)</option> 
+                    <option value="classic" >Classic (Light)</option>
+                    <option value="">No Theme</option>
+                  </select>
+                </div>
+                <div class="col-sm-6">
+                  <a href="http://hltv.pro/top-karma.php" class="btn btn-primary" target="_blank">Top Karma Users list</a>
+                </div>
+              </div>
+              <hr/>
+              <h3>
+                <b>Comments filtering based on Following Criterias</b> <span>( One per line )</span>
+              </h3>
+              <div class="row filter">
+                <div class="col-sm-4">
+                  <div>
+                    <label for="ignoredUsers">Usernames</label>
+                    <textarea class="form-control" placeholder="Comments from these User's will be hidden/deleted based on Full/Partial settings" id="ignoredUsers"></textarea>
+                    <div class="checkbox">
+                      <label for="ignoreUserFull">
+                        <input type="checkbox" id="ignoreUserFull">If checked Comment block will be removed
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="">
+                    <label for="ignoredFlags">User's Country flags (us,ca,au )</label>
+                    <h4 class="hidden"><span class="label label-default">Comments from  User's of these Countries will be hidden/deleted based on Full/Partial settings</span></h4>
+                    <textarea class="form-control" placeholder="Comments from  User's of these Countries will be hidden/deleted based on Full/Partial settings" id="ignoredFlags"></textarea>
+                    <div class="checkbox">
+                      <label for="ignoreFlagFull">
+                        <input type="checkbox" id="ignoreFlagFull">If checked Comment block will be removed
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="">
+                    <label for="ignoredWords">Text/word in the comment</label>
+                    <h4 class="hidden"><span class="label label-default">Comments containing these text/words will be hidden/deleted based on Full/Partial settings</span></h4>
+                    <textarea class="form-control" placeholder="Comments containing entered Text/Words will be removed" id="ignoredWords"></textarea>
+                    <div class="checkbox">
+                      <label for="ignoreWordFull">
+                        <input type="checkbox" id="ignoreWordFull">If checked Comment block will be removed
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <hr/>                
+              <div class="media">
+                <b style="color:#3498DB">Media Settings</b>
+              </div>
+              <div class="checkbox">
+                <label for="expandTwitter">
+                  <input type="checkbox" id="expandTwitter">
+                    Expand <b>Twitter links</b> into Posts
+                </label>
+              </div>
+              <div class="radio imgur">
+                <span class="m-name">Imgur</span>
+                <label>
+                  <input type="radio" name="imgur-set" class="click"> Show on Click 
+                </label>
+                <label>
+                  <input type="radio" name="imgur-set" class="auto"> Auto Embed (Affects page loading)
+                </label>
+              </div>
+              <div class="radio ytube">
+                <span class="m-name">YouTube</span>
+                <label><input type="radio" name="yt-set" class="click"> Show on Click</label>
+                <label><input type="radio" name="yt-set" class="auto"> Auto Embed (Affects page loading)</label>
+              </div>
+              <div class="radio twitch">
+                <span class="m-name">Twitch</span>
+                <label><input type="radio" name="twitch-set" class="click" /> Show on Click</label>
+                <label><input type="radio" name="twitch-set" class="auto" /> Auto Embed (Affects page loading)</label>
+              </div>
+              <div class="radio gyazo">
+                <span class="m-name">Gyazo</span>
+                <label><input type="radio" name="gyazo-set" class="click" /> Show on Click</label>
+                <label><input type="radio" name="gyazo-set" class="auto" /> Auto Embed (Affects page loading)</label>
+              </div>
+              <div class="radio giphy hidden">
+                <span class="m-name">Giphy</span>
+                <label>
+                  <input type="radio" name="giphy-set" class="auto"> Auto Embed
+                </label>
+                <label>
+                  <input type="radio" name="giphy-set" class="click"> Show on Click 
+                </label>
+              </div>
+              <div class="radio reactgif hidden">
+                <span class="m-name">ReactionGifs</span>
+                <label>
+                  <input type="radio" name="rgifs-set" class="auto"> Auto Embed
+                </label>
+                <label>
+                  <input type="radio" name="rgifs-set" class="click"> Show on Click 
+                </label>
+              </div>
+            </div><!-- /.box-body -->
+            <div class="box-footer text-center">
+              <div class="alert alert-success" role="alert" >
+                <button type="button" id="saveBtn" class="btn btn-success">Save & Close</button>
+              </div>
+              <button type="button" id="saveBn" class="btn btn-primary">Save settings</button>
+            </div>
+          </form>
+        </div><!-- /.box -->
+      </div>
+    </div>
+    <div class="row hidden" id="uiSection" >
+      <div class="col-md-12">
+        <div class="alert alert-danger" style="display:block">
+          We are fixing Hltv.Pro Extension which broke due to Hltv.org new design update. <br/>
+          We will have this extension working back very soon. Thank you for your patience.</div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="settings.js" type="text/javascript"></script>
+  </body>
+</html>

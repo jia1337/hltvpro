@@ -1,0 +1,47 @@
+body{font-size:16px;width:780px; margin:auto}
+section.container {
+    width: 780px;
+        padding: 0 5px;
+}
+label{-webkit-user-select:none;}
+.heading{
+    margin: 5px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    text-align:center
+}
+.form-group{text-align:left}
+.alert{margin-left:0; display: none}
+.checkbox label input,.radio label input{margin-top:4px}
+.radio label{margin-right:20px}
+input[checkbox]{height:20px}
+
+label span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.label{line-height:2}
+.content{padding:5px 15px 0; width:750px;margin:auto}
+textarea.form-control{height:150px;resize:none}
+.media{margin:0}
+.media b{font-size:20px;text-decoration:underline}
+.m-name{font-size:17px;width:150px;display:inline-block;font-weight: bold;}
+hr{margin:30px 0 5px}
+.row.filter h4{margin:0}
+
+h3 {margin: 0px 0 15px;font-weight: bold;}
+h3 b{
+  color:#3498DB;
+  text-decoration: underline;
+  font-size: 20px;
+}
+h3 span{color:#000;font-size: 16px;text-decoration: none;}
+.box-footer .alert{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin:0
+}
